@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Deploy to staging'){
             steps{
-                bulid job:'deploy-to-staging'
+                build job:'deploy-to-staging'
             }
         }
     }
